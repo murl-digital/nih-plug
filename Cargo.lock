@@ -1514,8 +1514,7 @@ dependencies = [
 [[package]]
 name = "ecolor"
 version = "0.27.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "20930a432bbd57a6d55e07976089708d4893f3d556cf42a0d79e9e321fa73b10"
+source = "git+https://github.com/emilk/egui?rev=c1eb3f884db8bc4f52dbae4f261619cee651f411#c1eb3f884db8bc4f52dbae4f261619cee651f411"
 dependencies = [
  "bytemuck",
 ]
@@ -1523,10 +1522,10 @@ dependencies = [
 [[package]]
 name = "egui"
 version = "0.27.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "584c5d1bf9a67b25778a3323af222dbe1a1feb532190e103901187f92c7fe29a"
+source = "git+https://github.com/emilk/egui?rev=c1eb3f884db8bc4f52dbae4f261619cee651f411#c1eb3f884db8bc4f52dbae4f261619cee651f411"
 dependencies = [
  "ahash",
+ "emath",
  "epaint",
  "nohash-hasher",
 ]
@@ -1534,7 +1533,7 @@ dependencies = [
 [[package]]
 name = "egui-baseview"
 version = "0.2.0"
-source = "git+https://github.com/BillyDM/egui-baseview.git?rev=68c4d0e8e5c1c702a888a245f4ac50eddfdfcaed#68c4d0e8e5c1c702a888a245f4ac50eddfdfcaed"
+source = "git+https://github.com/murl-digital/egui-baseview.git?rev=6cc6c8e4ad2e583f597a96f238cc7dc318f8c59a#6cc6c8e4ad2e583f597a96f238cc7dc318f8c59a"
 dependencies = [
  "baseview 0.1.0 (git+https://github.com/RustAudio/baseview.git?rev=45465c5f46abed6c6ce370fffde5edc8e4cd5aa3)",
  "copypasta 0.10.0",
@@ -1548,8 +1547,7 @@ dependencies = [
 [[package]]
 name = "egui_glow"
 version = "0.27.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0e5d975f3c86edc3d35b1db88bb27c15dde7c55d3b5af164968ab5ede3f44ca"
+source = "git+https://github.com/emilk/egui?rev=c1eb3f884db8bc4f52dbae4f261619cee651f411#c1eb3f884db8bc4f52dbae4f261619cee651f411"
 dependencies = [
  "bytemuck",
  "egui",
@@ -1569,8 +1567,7 @@ checksum = "a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07"
 [[package]]
 name = "emath"
 version = "0.27.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e4c3a552cfca14630702449d35f41c84a0d15963273771c6059175a803620f3f"
+source = "git+https://github.com/emilk/egui?rev=c1eb3f884db8bc4f52dbae4f261619cee651f411#c1eb3f884db8bc4f52dbae4f261619cee651f411"
 dependencies = [
  "bytemuck",
 ]
@@ -1599,8 +1596,7 @@ dependencies = [
 [[package]]
 name = "epaint"
 version = "0.27.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b381f8b149657a4acf837095351839f32cd5c4aec1817fc4df84e18d76334176"
+source = "git+https://github.com/emilk/egui?rev=c1eb3f884db8bc4f52dbae4f261619cee651f411#c1eb3f884db8bc4f52dbae4f261619cee651f411"
 dependencies = [
  "ab_glyph",
  "ahash",
