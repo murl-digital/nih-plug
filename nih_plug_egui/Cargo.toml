@@ -12,6 +12,7 @@ default = ["opengl", "default_fonts"]
 # `nih_plug_egui` always uses OpenGL since egui's wgpu backend is still unstable
 # depending on the platform
 opengl = ["egui-baseview/opengl"]
+wgpu = ["egui-baseview/wgpu"]
 default_fonts = ["egui-baseview/default_fonts"]
 rayon = ["egui-baseview/rayon"]
 
@@ -20,7 +21,7 @@ nih_plug = { path = "..", default-features = false }
 raw-window-handle = "0.5"
 baseview = { git = "https://github.com/RustAudio/baseview.git", rev = "45465c5f46abed6c6ce370fffde5edc8e4cd5aa3" }
 crossbeam = "0.8"
-egui-baseview = { git = "https://github.com/murl-digital/egui-baseview.git", rev = "6cc6c8e4ad2e583f597a96f238cc7dc318f8c59a", default-features = false }
+egui-baseview = { git = "https://github.com/murl-digital/egui-baseview.git", rev = "275cb4c3ed86d98ea557259383d71d2847b8babf", default-features = false }
 lazy_static = "1.4"
 parking_lot = "0.12"
 # To make the state persistable
