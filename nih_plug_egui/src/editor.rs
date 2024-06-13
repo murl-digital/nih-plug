@@ -1,5 +1,6 @@
 //! An [`Editor`] implementation for egui.
 
+#[cfg(feature = "opengl")]
 use baseview::gl::GlConfig;
 use baseview::{Size, WindowHandle, WindowOpenOptions, WindowScalePolicy};
 use crossbeam::atomic::AtomicCell;
